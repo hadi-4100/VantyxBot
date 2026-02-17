@@ -1,0 +1,23 @@
+{
+  "name": "vantyx-api",
+  "version": "1.0.0",
+  "description": "API Backend for Vantyx System",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "chalk": "^4.1.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "discord-oauth2": "^2.11.0",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "multer": "^2.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
