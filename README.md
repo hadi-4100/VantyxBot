@@ -5,10 +5,10 @@
   <h3>The Next-Generation Discord Ecosystem</h3>
   
   <p>
-    <a href="https://discord.gg/4EbSFSJZqH"><img src="https://img.shields.io/discord/614048301674921985?color=5865F2&logo=discord&logoColor=white&label=Community" alt="Discord Server" /></a>
-    <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/Node.js-v18+-339933?logo=node.js&logoColor=white" alt="Node.js" /></a>
-    <a href="https://github.com/hadi-4100/VantyxBot/blob/main/LICENSE.md"><img src="https://img.shields.io/badge/License-MIT-green" alt="License" /></a>
-    <a href="https://patreon.com/hadi4100"><img src="https://img.shields.io/badge/Sponsor-Patreon-orange?logo=patreon&logoColor=white" alt="Sponsor" /></a>
+    <a href="https://discord.gg/4EbSFSJZqH" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/discord/614048301674921985?color=5865F2&logo=discord&logoColor=white&label=Community" alt="Discord Server" /></a>
+    <a href="https://nodejs.org/" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Node.js-v18+-339933?logo=node.js&logoColor=white" alt="Node.js" /></a>
+    <a href="https://github.com/hadi-4100/VantyxBot/blob/main/LICENSE.md" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/License-MIT-green" alt="License" /></a>
+    <a href="https://patreon.com/hadi4100" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Sponsor-Patreon-orange?logo=patreon&logoColor=white" alt="Sponsor" /></a>
   </p>
 
   <p align="center">
@@ -21,9 +21,13 @@
 
 <div align="center">
   
-  [![Patreon](https://img.shields.io/badge/Support_on_Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://patreon.com/hadi4100)
+  <a href="https://patreon.com/hadi4100" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Support_on_Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white" alt="Patreon" />
+  </a>
   &nbsp;&nbsp;
-  [![Support](https://img.shields.io/badge/📞_Get_Support-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/4EbSFSJZqH)
+  <a href="https://discord.gg/4EbSFSJZqH" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/📞_Get_Support-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Support" />
+  </a>
   
 </div>
 
@@ -55,7 +59,7 @@ Vantyx is now open-source, but development continues through community support!
   - 🔔 **Social Notifications:** YouTube, TikTok, Twitch, and Kick integration.
   - 🚀 And much more...
 
-**Become a Sponsor:** [patreon.com/hadi4100](https://patreon.com/hadi4100)
+**Become a Sponsor:** <a href="https://patreon.com/hadi4100" target="_blank" rel="noopener noreferrer">patreon.com/hadi4100</a>
 
 <hr />
 
@@ -115,16 +119,16 @@ Get Vantyx up and running in minutes. The project uses **NPM Workspaces** to man
 
 ### 1. Prerequisites
 
-- [Node.js v18+](https://nodejs.org/)
-- [MongoDB](https://www.mongodb.com/try/download/community) (Local or Atlas)
-- A [Discord Bot Token](https://discord.com/developers/applications)
+- <a href="https://nodejs.org/" target="_blank" rel="noopener noreferrer">Node.js v18+</a>
+- <a href="https://www.mongodb.com/try/download/community" target="_blank" rel="noopener noreferrer">MongoDB</a> (Local or Atlas)
+- A <a href="https://discord.com/developers/applications" target="_blank" rel="noopener noreferrer">Discord Bot Token</a>
 
 ### 2. Configure
 
 1.  **Environment Variables:** Rename `config.sample.js` to `config.js`.
 2.  **Discord Secrets:** Open `config.js` and fill in your `DISCORD_TOKEN`, `CLIENT_ID`, and `CLIENT_SECRET`.
 3.  **Discord Developer Portal Setup:**
-    - Go to the [Discord Developer Portal](https://discord.com/developers/applications).
+    - Go to the <a href="https://discord.com/developers/applications" target="_blank" rel="noopener noreferrer">Discord Developer Portal</a>.
     - Select your application and navigate to the **OAuth2** tab.
     - Click **Add Redirect** and enter: `http://localhost:3000/login`.
     - Click **Save Changes**.
