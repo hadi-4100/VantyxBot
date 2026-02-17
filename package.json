@@ -1,0 +1,26 @@
+{
+  "name": "vantyx",
+  "version": "1.0.0",
+  "description": "Vantyx - Advanced Discord Bot & Dashboard",
+  "private": true,
+  "workspaces": [
+    "bot",
+    "api",
+    "dashboard"
+  ],
+  "scripts": {
+    "dev:bot": "npm run dev --workspace=bot",
+    "dev:api": "npm run dev --workspace=api",
+    "dev:dashboard": "npm run dev --workspace=dashboard",
+    "dev": "concurrently \"npm run dev:bot\" \"npm run dev:api\" \"npm run dev:dashboard\"",
+    "start:bot": "npm run start --workspace=bot",
+    "start:api": "npm run start --workspace=api",
+    "start:dashboard": "npm run start --workspace=dashboard",
+    "start": "concurrently \"npm run start:bot\" \"npm run start:api\" \"npm run start:dashboard\"",
+    "build:dashboard": "npm run build --workspace=dashboard",
+    "install:all": "npm install && npm install --workspace=bot && npm install --workspace=api && npm install --workspace=dashboard"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
