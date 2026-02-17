@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./*"],
+      "@config": ["../config.js"],
+      "@components": ["./components/*"],
+      "@context": ["./context/*"],
+      "@utils": ["./utils/*"],
+      "@hooks": ["./hooks/*"],
+    }
+  }
+}
+
